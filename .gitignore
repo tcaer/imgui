@@ -29,6 +29,8 @@ ipch
 *.suo
 *.VC.db
 *.VC.VC.opendb
+*.vcxproj*
+*.sln
 
 ## Xcode artifacts
 project.xcworkspace
