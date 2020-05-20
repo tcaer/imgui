@@ -12,6 +12,8 @@ examples/build/*
 examples/*/Debug/*
 examples/*/Release/*
 examples/*/x64/*
+build
+*.vcxproj
 
 ## Visual Studio artifacts
 .vs
