@@ -1,7 +1,7 @@
 project "ImGui"
   kind "StaticLib"
   language "C++"
-
+  
   targetdir("build/bin/" .. outputdir .. "/%{prj.name}")
   objdir("build/obj/" .. outputdir .. "/%{prj.name}")
 
