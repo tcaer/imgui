@@ -27,6 +27,18 @@ project "ImGui"
     systemversion "latest"
     staticruntime "on"
 
+    defines {
+      "LBX_PLATFORM_MACOS",
+      "GLFW_EXPOSE_NATIVE_COCOA"
+    }
+
+    links {
+      "Metal.framework",
+      "MetalKit.framework",
+      "QuartzCore.framework",
+      "Foundation.framework"
+    }
+
   filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
